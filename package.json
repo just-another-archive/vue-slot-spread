@@ -1,0 +1,35 @@
+{
+  "name": "vue-slot-spread",
+  "version": "1.0.0",
+  "description": "a Vue.js mixin to spread components in slots",
+  "main": "dist/vue-slot-spread.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./rollup.build.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/y-nk/vue-slot-spread.git"
+  },
+  "keywords": [
+    "vuejs",
+    "slot",
+    "spread"
+  ],
+  "author": "Julien Barbay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/y-nk/vue-slot-spread/issues"
+  },
+  "peerDependencies": {
+    "vue": "^2.5.16"
+  },
+  "files": [
+    "*.md", "**/*.js"
+  ],
+  "homepage": "https://github.com/y-nk/vue-slot-spread#readme",
+  "devDependencies": {
+    "rollup": "^0.60.4",
+    "rollup-plugin-minify-es": "^1.1.1"
+  }
+}
